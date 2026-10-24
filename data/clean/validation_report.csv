@@ -1,0 +1,22 @@
+check,passed,detail
+at_least_min_vehicles,True,396 trajectories (minimum 100)
+trajectory_id_unique,True,one row per trajectory
+frame_key_unique,True,"(trajectory_id, timestamp) is unique"
+one_class_per_trajectory,True,vehicle class constant within each trajectory
+one_length_per_trajectory,True,vehicle length constant within each trajectory
+one_source_trajectory_per_id,True,total_frames constant within each trajectory (split matched the source)
+frames_increase_within_trajectory,True,frame_id increases within each trajectory
+no_missing_keys,True,key columns have no missing values
+speeds_plausible,True,"mean speed within [0, 45] m/s"
+collection_date,True,all frames on 2005-06-15 (local)
+trajectories_complete,True,sampled frames match source total_frames / frame_step within 10% (range 0.971-1.021)
+dtype_trajectory_id,True,trajectory_id is str (actual str)
+dtype_vehicle_id,True,vehicle_id is int64 (actual int64)
+dtype_vehicle_class,True,vehicle_class is category (actual category)
+dtype_vehicle_length_m,True,vehicle_length_m is float64 (actual float64)
+dtype_duration_s,True,duration_s is float64 (actual float64)
+dtype_n_sampled_frames,True,n_sampled_frames is int64 (actual int64)
+dtype_mean_speed_mps,True,mean_speed_mps is float64 (actual float64)
+dtype_median_time_headway_s,True,median_time_headway_s is float64 (actual float64)
+dtype_most_common_lane,True,most_common_lane is int64 (actual int64)
+dtype_n_lane_changes,True,n_lane_changes is int64 (actual int64)

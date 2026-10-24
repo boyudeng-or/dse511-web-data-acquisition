@@ -1,0 +1,2159 @@
+{
+  "id" : "8ect-6jqj",
+  "name" : "Next Generation Simulation (NGSIM) Vehicle Trajectories and Supporting Data",
+  "assetType" : "dataset",
+  "attribution" : "U.S. Department of Transportation Intelligent Transportation Systems Joint Program Office (JPO) -- Recommended citation: \"U.S. Department of Transportation Federal Highway Administration. (2016). Next Generation Simulation (NGSIM) Vehicle Trajectories and Supporting Data. [Dataset]. Provided by ITS DataHub through Data.transportation.gov. Accessed YYYY-MM-DD from http://doi.org/10.21949/1504477\"",
+  "averageRating" : 0,
+  "category" : "Automobiles",
+  "createdAt" : 1504279364,
+  "description" : "Click “Export” on the right to download the vehicle trajectory data. The associated metadata and additional data can be downloaded below under \"Attachments\".\n\nResearchers for the Next Generation Simulation (NGSIM)  program collected detailed vehicle trajectory data on southbound US 101 and Lankershim Boulevard in Los Angeles, CA, eastbound I-80 in Emeryville, CA and Peachtree Street in Atlanta, Georgia. Data was collected through a network of synchronized digital video cameras. NGVIDEO, a customized software application developed for the NGSIM program, transcribed the vehicle trajectory data from the video. This vehicle trajectory data provided the precise location of each vehicle within the study area every one-tenth of a second, resulting in detailed lane positions and locations relative to other vehicles. Click the \"Show More\" button below to find additional contextual data and metadata for this dataset. \n\nFor site-specific NGSIM video file datasets, please see the following:\n- <a href=\"https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Program-I-80-Vide/2577-gpny\">NGSIM I-80 Videos</a>\n- <a href=\"https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Program-US-101-Vi/4qzi-thur\">NGSIM US-101 Videos</a>\n- <a href=\"https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Program-Lankershi/uv3e-y54k\">NGSIM Lankershim Boulevard Videos</a>\n- <a href=\"https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Program-Peachtree/mupt-aksf\">NGSIM Peachtree Street Videos</a>",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "domainCName" : "data.transportation.gov",
+  "downloadCount" : 152962,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1543672436,
+  "licenseId" : "CC_30_BY_SA",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 29573764,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1535383427,
+  "publicationGroup" : 14436255,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1535394233,
+  "tableId" : 15477163,
+  "totalTimesRated" : 0,
+  "viewCount" : 265146,
+  "viewLastModified" : 1791315235,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1504895201,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 801093,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1504895201,
+    "targetAudience" : "public",
+    "workflowId" : 568,
+    "reviewer" : {
+      "id" : "9ni7-629e",
+      "displayName" : "Daniel Morgan"
+    },
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "9ni7-629e",
+      "displayName" : "Daniel Morgan"
+    }
+  }, {
+    "message" : "The `strict_permissions` flag must be on to enable internal approvals.",
+    "state" : "unsubmittable",
+    "targetAudience" : "internal",
+    "workflowId" : 5258
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 372619689,
+    "name" : "Vehicle_ID",
+    "dataTypeName" : "number",
+    "description" : "Vehicle identification number (ascending by time of entry into section). REPEATS ARE NOT ASSOCIATED. ",
+    "fieldName" : "vehicle_id",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723321,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "3366",
+      "non_null" : "11850526",
+      "average" : "1272.562791896326",
+      "null" : "0",
+      "top" : [ {
+        "item" : "396",
+        "count" : "9834"
+      }, {
+        "item" : "705",
+        "count" : "8759"
+      }, {
+        "item" : "567",
+        "count" : "8666"
+      }, {
+        "item" : "1023",
+        "count" : "8649"
+      }, {
+        "item" : "1551",
+        "count" : "8522"
+      }, {
+        "item" : "375",
+        "count" : "8486"
+      }, {
+        "item" : "468",
+        "count" : "8480"
+      }, {
+        "item" : "597",
+        "count" : "8276"
+      }, {
+        "item" : "703",
+        "count" : "8276"
+      }, {
+        "item" : "1476",
+        "count" : "8259"
+      }, {
+        "item" : "1232",
+        "count" : "8109"
+      }, {
+        "item" : "476",
+        "count" : "7954"
+      }, {
+        "item" : "706",
+        "count" : "7951"
+      }, {
+        "item" : "1003",
+        "count" : "7942"
+      }, {
+        "item" : "903",
+        "count" : "7924"
+      }, {
+        "item" : "1026",
+        "count" : "7893"
+      }, {
+        "item" : "1192",
+        "count" : "7878"
+      }, {
+        "item" : "909",
+        "count" : "7872"
+      }, {
+        "item" : "1386",
+        "count" : "7839"
+      }, {
+        "item" : "749",
+        "count" : "7799"
+      } ],
+      "smallest" : "1",
+      "count" : "11850526",
+      "sum" : "15080538452",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619690,
+    "name" : "Frame_ID",
+    "dataTypeName" : "number",
+    "description" : " Frame Identification number (ascending by start time)",
+    "fieldName" : "frame_id",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723322,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "11691",
+      "non_null" : "11850526",
+      "average" : "5174.502677855818",
+      "null" : "0",
+      "top" : [ {
+        "item" : "6398",
+        "count" : "1482"
+      }, {
+        "item" : "6396",
+        "count" : "1482"
+      }, {
+        "item" : "6399",
+        "count" : "1481"
+      }, {
+        "item" : "6413",
+        "count" : "1481"
+      }, {
+        "item" : "6411",
+        "count" : "1481"
+      }, {
+        "item" : "6412",
+        "count" : "1481"
+      }, {
+        "item" : "6397",
+        "count" : "1480"
+      }, {
+        "item" : "6407",
+        "count" : "1480"
+      }, {
+        "item" : "6394",
+        "count" : "1479"
+      }, {
+        "item" : "6395",
+        "count" : "1479"
+      }, {
+        "item" : "6393",
+        "count" : "1479"
+      }, {
+        "item" : "6400",
+        "count" : "1479"
+      }, {
+        "item" : "6418",
+        "count" : "1478"
+      }, {
+        "item" : "6403",
+        "count" : "1478"
+      }, {
+        "item" : "6409",
+        "count" : "1478"
+      }, {
+        "item" : "6401",
+        "count" : "1478"
+      }, {
+        "item" : "6410",
+        "count" : "1478"
+      }, {
+        "item" : "6417",
+        "count" : "1478"
+      }, {
+        "item" : "6392",
+        "count" : "1478"
+      }, {
+        "item" : "6453",
+        "count" : "1478"
+      } ],
+      "smallest" : "1",
+      "count" : "11850526",
+      "sum" : "61320578521",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619691,
+    "name" : "Total_Frames",
+    "dataTypeName" : "number",
+    "description" : " Total number of frames in which the vehicle appears in this data set",
+    "fieldName" : "total_frames",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723323,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "2434",
+      "non_null" : "11850526",
+      "average" : "893.0486812146566",
+      "null" : "0",
+      "top" : [ {
+        "item" : "937",
+        "count" : "29984"
+      }, {
+        "item" : "911",
+        "count" : "26419"
+      }, {
+        "item" : "955",
+        "count" : "25785"
+      }, {
+        "item" : "818",
+        "count" : "25358"
+      }, {
+        "item" : "958",
+        "count" : "24908"
+      }, {
+        "item" : "729",
+        "count" : "24786"
+      }, {
+        "item" : "703",
+        "count" : "24605"
+      }, {
+        "item" : "820",
+        "count" : "24600"
+      }, {
+        "item" : "872",
+        "count" : "23544"
+      }, {
+        "item" : "903",
+        "count" : "23478"
+      }, {
+        "item" : "507",
+        "count" : "22815"
+      }, {
+        "item" : "873",
+        "count" : "22698"
+      }, {
+        "item" : "731",
+        "count" : "22661"
+      }, {
+        "item" : "940",
+        "count" : "22560"
+      }, {
+        "item" : "899",
+        "count" : "22475"
+      }, {
+        "item" : "936",
+        "count" : "22464"
+      }, {
+        "item" : "772",
+        "count" : "22388"
+      }, {
+        "item" : "770",
+        "count" : "22330"
+      }, {
+        "item" : "786",
+        "count" : "22008"
+      }, {
+        "item" : "725",
+        "count" : "21750"
+      } ],
+      "smallest" : "2",
+      "count" : "11850526",
+      "sum" : "10583096616",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619692,
+    "name" : "Global_Time",
+    "dataTypeName" : "number",
+    "description" : "Elapsed time in milliseconds since Jan 1, 1970.",
+    "fieldName" : "global_time",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723324,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "1118937747000",
+      "non_null" : "11850526",
+      "average" : "1034354218846.153",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1118848150300",
+        "count" : "396"
+      }, {
+        "item" : "1118848150600",
+        "count" : "394"
+      }, {
+        "item" : "1118848151100",
+        "count" : "394"
+      }, {
+        "item" : "1118848150700",
+        "count" : "394"
+      }, {
+        "item" : "1118848150900",
+        "count" : "394"
+      }, {
+        "item" : "1118848151000",
+        "count" : "394"
+      }, {
+        "item" : "1118848150200",
+        "count" : "394"
+      }, {
+        "item" : "1118848149300",
+        "count" : "394"
+      }, {
+        "item" : "1118848150100",
+        "count" : "394"
+      }, {
+        "item" : "1118848149500",
+        "count" : "394"
+      }, {
+        "item" : "1118848149600",
+        "count" : "394"
+      }, {
+        "item" : "1118848150500",
+        "count" : "394"
+      }, {
+        "item" : "1118848149400",
+        "count" : "394"
+      }, {
+        "item" : "1118848150400",
+        "count" : "394"
+      }, {
+        "item" : "1118848151200",
+        "count" : "394"
+      }, {
+        "item" : "1118848149800",
+        "count" : "392"
+      }, {
+        "item" : "1118848152000",
+        "count" : "392"
+      }, {
+        "item" : "1118848150800",
+        "count" : "392"
+      }, {
+        "item" : "1118848147100",
+        "count" : "392"
+      }, {
+        "item" : "1118848144100",
+        "count" : "392"
+      } ],
+      "smallest" : "1163019100",
+      "count" : "11850526",
+      "sum" : "12257641563646022600",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619693,
+    "name" : "Local_X",
+    "dataTypeName" : "number",
+    "description" : "Lateral (X) coordinate of the front center of the vehicle in feet with respect to\nthe left-most edge of the section in the direction of travel.",
+    "fieldName" : "local_x",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723325,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "160.884",
+      "non_null" : "11850526",
+      "average" : "27.94686005203482",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-14.727",
+        "count" : "2019"
+      }, {
+        "item" : "-14.648",
+        "count" : "1450"
+      }, {
+        "item" : "7.816",
+        "count" : "1254"
+      }, {
+        "item" : "39.343",
+        "count" : "1235"
+      }, {
+        "item" : "28.698",
+        "count" : "1219"
+      }, {
+        "item" : "17.624",
+        "count" : "1187"
+      }, {
+        "item" : "9.112",
+        "count" : "1178"
+      }, {
+        "item" : "-4.955",
+        "count" : "1127"
+      }, {
+        "item" : "41.185",
+        "count" : "1078"
+      }, {
+        "item" : "8.213",
+        "count" : "1064"
+      }, {
+        "item" : "30.08",
+        "count" : "1056"
+      }, {
+        "item" : "29.171",
+        "count" : "1055"
+      }, {
+        "item" : "29.258",
+        "count" : "1054"
+      }, {
+        "item" : "29.072",
+        "count" : "1037"
+      }, {
+        "item" : "54.693",
+        "count" : "1037"
+      }, {
+        "item" : "40.126",
+        "count" : "1025"
+      }, {
+        "item" : "29.611",
+        "count" : "1018"
+      }, {
+        "item" : "29.04",
+        "count" : "1007"
+      }, {
+        "item" : "41.619",
+        "count" : "1007"
+      }, {
+        "item" : "18.588",
+        "count" : "1002"
+      } ],
+      "smallest" : "-325.625",
+      "count" : "11850526",
+      "sum" : "331184991.665",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619694,
+    "name" : "Local_Y",
+    "dataTypeName" : "number",
+    "description" : "Longitudinal (Y) coordinate of the front center of the vehicle in feet with\nrespect to the entry edge of the section in the direction of travel.",
+    "fieldName" : "local_y",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723326,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "2235.252",
+      "non_null" : "11850526",
+      "average" : "916.8110916603196",
+      "null" : "0",
+      "top" : [ {
+        "item" : "760.06",
+        "count" : "4114"
+      }, {
+        "item" : "777.354",
+        "count" : "2040"
+      }, {
+        "item" : "357.697",
+        "count" : "1060"
+      }, {
+        "item" : "347.155",
+        "count" : "951"
+      }, {
+        "item" : "1361.623",
+        "count" : "903"
+      }, {
+        "item" : "344.78",
+        "count" : "893"
+      }, {
+        "item" : "480.991",
+        "count" : "863"
+      }, {
+        "item" : "398.713",
+        "count" : "792"
+      }, {
+        "item" : "230.772",
+        "count" : "790"
+      }, {
+        "item" : "335.178",
+        "count" : "782"
+      }, {
+        "item" : "550.66",
+        "count" : "779"
+      }, {
+        "item" : "473.576",
+        "count" : "774"
+      }, {
+        "item" : "588.491",
+        "count" : "771"
+      }, {
+        "item" : "571.497",
+        "count" : "767"
+      }, {
+        "item" : "486.28",
+        "count" : "765"
+      }, {
+        "item" : "435.081",
+        "count" : "761"
+      }, {
+        "item" : "474.738",
+        "count" : "760"
+      }, {
+        "item" : "591.976",
+        "count" : "756"
+      }, {
+        "item" : "443.293",
+        "count" : "755"
+      }, {
+        "item" : "505.759",
+        "count" : "751"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "sum" : "10864693678.809",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619695,
+    "name" : "Global_X",
+    "dataTypeName" : "number",
+    "description" : "X Coordinate of the front center of the vehicle in feet based on CA State\nPlane III in NAD83.\nAttribute Domain Val",
+    "fieldName" : "global_x",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723327,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "6452740.916",
+      "non_null" : "11850526",
+      "average" : "5982982.585295183",
+      "null" : "0",
+      "top" : [ {
+        "item" : "6452057.409",
+        "count" : "1067"
+      }, {
+        "item" : "6452054.345",
+        "count" : "958"
+      }, {
+        "item" : "6452053.412",
+        "count" : "899"
+      }, {
+        "item" : "6452099.544",
+        "count" : "809"
+      }, {
+        "item" : "6452067.887",
+        "count" : "809"
+      }, {
+        "item" : "6452014.948",
+        "count" : "792"
+      }, {
+        "item" : "6452102.973",
+        "count" : "787"
+      }, {
+        "item" : "6452101.292",
+        "count" : "782"
+      }, {
+        "item" : "6452129.492",
+        "count" : "779"
+      }, {
+        "item" : "6452130.693",
+        "count" : "775"
+      }, {
+        "item" : "6452109.872",
+        "count" : "767"
+      }, {
+        "item" : "6452140.925",
+        "count" : "765"
+      }, {
+        "item" : "6452139.618",
+        "count" : "763"
+      }, {
+        "item" : "6452102.186",
+        "count" : "763"
+      }, {
+        "item" : "6452110.673",
+        "count" : "761"
+      }, {
+        "item" : "6452158.934",
+        "count" : "761"
+      }, {
+        "item" : "6452110.376",
+        "count" : "757"
+      }, {
+        "item" : "6452149.132",
+        "count" : "755"
+      }, {
+        "item" : "6452114.452",
+        "count" : "744"
+      }, {
+        "item" : "6452111.55",
+        "count" : "730"
+      } ],
+      "smallest" : "2230210.33",
+      "count" : "11850526",
+      "sum" : "70901490684587.786",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619696,
+    "name" : "Global_Y",
+    "dataTypeName" : "number",
+    "description" : "Y Coordinate of the front center of the vehicle in feet based on CA State\nPlane III in NAD83.",
+    "fieldName" : "global_y",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723328,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "2134845.191",
+      "non_null" : "11850526",
+      "average" : "1936843.017300632",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1873122.378",
+        "count" : "1065"
+      }, {
+        "item" : "1873119.952",
+        "count" : "956"
+      }, {
+        "item" : "1873117.732",
+        "count" : "895"
+      }, {
+        "item" : "1873239.33",
+        "count" : "807"
+      }, {
+        "item" : "1873205.804",
+        "count" : "793"
+      }, {
+        "item" : "1873302.235",
+        "count" : "783"
+      }, {
+        "item" : "1873237.865",
+        "count" : "776"
+      }, {
+        "item" : "1873279.157",
+        "count" : "774"
+      }, {
+        "item" : "1873235.019",
+        "count" : "771"
+      }, {
+        "item" : "1873320.485",
+        "count" : "768"
+      }, {
+        "item" : "1873243.548",
+        "count" : "767"
+      }, {
+        "item" : "1873159.504",
+        "count" : "761"
+      }, {
+        "item" : "1873169.27",
+        "count" : "761"
+      }, {
+        "item" : "1873242.991",
+        "count" : "757"
+      }, {
+        "item" : "1873261.604",
+        "count" : "756"
+      }, {
+        "item" : "1873338.633",
+        "count" : "749"
+      }, {
+        "item" : "1873267.659",
+        "count" : "745"
+      }, {
+        "item" : "1873261.257",
+        "count" : "732"
+      }, {
+        "item" : "1873342.015",
+        "count" : "730"
+      }, {
+        "item" : "1873268.028",
+        "count" : "720"
+      } ],
+      "smallest" : "1375532.938",
+      "count" : "11850526",
+      "sum" : "22952608534439.593",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619697,
+    "name" : "v_length",
+    "dataTypeName" : "number",
+    "description" : "Length of vehicle in feet",
+    "fieldName" : "v_length",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723329,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "77.7",
+      "non_null" : "11850526",
+      "average" : "15.69627423289059",
+      "null" : "0",
+      "top" : [ {
+        "item" : "15",
+        "count" : "763264"
+      }, {
+        "item" : "16",
+        "count" : "733525"
+      }, {
+        "item" : "15.5",
+        "count" : "599964"
+      }, {
+        "item" : "14.5",
+        "count" : "588580"
+      }, {
+        "item" : "14",
+        "count" : "506979"
+      }, {
+        "item" : "15.3",
+        "count" : "489587"
+      }, {
+        "item" : "14.3",
+        "count" : "465653"
+      }, {
+        "item" : "14.8",
+        "count" : "447211"
+      }, {
+        "item" : "13.5",
+        "count" : "416281"
+      }, {
+        "item" : "16.5",
+        "count" : "390603"
+      }, {
+        "item" : "15.8",
+        "count" : "380316"
+      }, {
+        "item" : "13",
+        "count" : "373975"
+      }, {
+        "item" : "13.8",
+        "count" : "367386"
+      }, {
+        "item" : "17",
+        "count" : "329736"
+      }, {
+        "item" : "13.3",
+        "count" : "290392"
+      }, {
+        "item" : "16.3",
+        "count" : "268829"
+      }, {
+        "item" : "12.5",
+        "count" : "256905"
+      }, {
+        "item" : "12.8",
+        "count" : "197529"
+      }, {
+        "item" : "16.8",
+        "count" : "189814"
+      }, {
+        "item" : "17.5",
+        "count" : "170684"
+      } ],
+      "smallest" : "3.5",
+      "count" : "11850526",
+      "sum" : "186009105.9",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619698,
+    "name" : "v_Width",
+    "dataTypeName" : "number",
+    "description" : "Width of vehicle in feet",
+    "fieldName" : "v_width",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723336,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "8.5",
+      "non_null" : "11850526",
+      "average" : "6.626443889494863",
+      "null" : "0",
+      "top" : [ {
+        "item" : "6.4",
+        "count" : "1590705"
+      }, {
+        "item" : "6.9",
+        "count" : "1479593"
+      }, {
+        "item" : "5.9",
+        "count" : "1265101"
+      }, {
+        "item" : "7.4",
+        "count" : "1172773"
+      }, {
+        "item" : "7",
+        "count" : "1103958"
+      }, {
+        "item" : "5.4",
+        "count" : "737851"
+      }, {
+        "item" : "8.5",
+        "count" : "431994"
+      }, {
+        "item" : "6.5",
+        "count" : "424066"
+      }, {
+        "item" : "6.8",
+        "count" : "407600"
+      }, {
+        "item" : "7.9",
+        "count" : "396533"
+      }, {
+        "item" : "6.3",
+        "count" : "345545"
+      }, {
+        "item" : "4.9",
+        "count" : "276689"
+      }, {
+        "item" : "7.3",
+        "count" : "247708"
+      }, {
+        "item" : "5.8",
+        "count" : "234127"
+      }, {
+        "item" : "6",
+        "count" : "188714"
+      }, {
+        "item" : "8.4",
+        "count" : "184874"
+      }, {
+        "item" : "5.5",
+        "count" : "168786"
+      }, {
+        "item" : "7.2",
+        "count" : "166977"
+      }, {
+        "item" : "6.7",
+        "count" : "140557"
+      }, {
+        "item" : "5",
+        "count" : "136767"
+      } ],
+      "smallest" : "2",
+      "count" : "11850526",
+      "sum" : "78526845.6",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619699,
+    "name" : "v_Class",
+    "dataTypeName" : "number",
+    "description" : "Vehicle type: 1 - motorcycle, 2 - auto, 3 - truck ",
+    "fieldName" : "v_class",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723344,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "3",
+      "non_null" : "11850526",
+      "average" : "2.023950160524520",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2",
+        "count" : "11473680"
+      }, {
+        "item" : "3",
+        "count" : "330334"
+      }, {
+        "item" : "1",
+        "count" : "46512"
+      } ],
+      "smallest" : "1",
+      "count" : "11850526",
+      "sum" : "23984874",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619700,
+    "name" : "v_Vel",
+    "dataTypeName" : "number",
+    "description" : "Instantaneous velocity of vehicle in feet/second.",
+    "fieldName" : "v_vel",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723345,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "95.3",
+      "non_null" : "11850526",
+      "average" : "23.25818412786065",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "928568"
+      }, {
+        "item" : "25",
+        "count" : "159939"
+      }, {
+        "item" : "20",
+        "count" : "158611"
+      }, {
+        "item" : "15",
+        "count" : "153467"
+      }, {
+        "item" : "30",
+        "count" : "147146"
+      }, {
+        "item" : "10",
+        "count" : "145079"
+      }, {
+        "item" : "35",
+        "count" : "133980"
+      }, {
+        "item" : "5",
+        "count" : "118756"
+      }, {
+        "item" : "40",
+        "count" : "109625"
+      }, {
+        "item" : "45",
+        "count" : "65192"
+      }, {
+        "item" : "50",
+        "count" : "37551"
+      }, {
+        "item" : "0.04",
+        "count" : "26241"
+      }, {
+        "item" : "0.05",
+        "count" : "24997"
+      }, {
+        "item" : "29.99",
+        "count" : "19667"
+      }, {
+        "item" : "0.06",
+        "count" : "18932"
+      }, {
+        "item" : "34.99",
+        "count" : "18857"
+      }, {
+        "item" : "39.99",
+        "count" : "18599"
+      }, {
+        "item" : "0.07",
+        "count" : "17472"
+      }, {
+        "item" : "29.98",
+        "count" : "17168"
+      }, {
+        "item" : "34.98",
+        "count" : "16636"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "sum" : "275621715.72",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619701,
+    "name" : "v_Acc",
+    "dataTypeName" : "number",
+    "description" : "Instantaneous acceleration of vehicle in feet/second square.",
+    "fieldName" : "v_acc",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723346,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "15.84",
+      "non_null" : "11850526",
+      "average" : "0.07139650172490234",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "3912726"
+      }, {
+        "item" : "11.2",
+        "count" : "355704"
+      }, {
+        "item" : "-11.2",
+        "count" : "340566"
+      }, {
+        "item" : "-0.03",
+        "count" : "59130"
+      }, {
+        "item" : "0.02",
+        "count" : "58351"
+      }, {
+        "item" : "-0.02",
+        "count" : "58162"
+      }, {
+        "item" : "-0.04",
+        "count" : "50948"
+      }, {
+        "item" : "0.03",
+        "count" : "50689"
+      }, {
+        "item" : "0.04",
+        "count" : "46816"
+      }, {
+        "item" : "-0.25",
+        "count" : "43861"
+      }, {
+        "item" : "0.25",
+        "count" : "39103"
+      }, {
+        "item" : "-0.07",
+        "count" : "39070"
+      }, {
+        "item" : "-0.24",
+        "count" : "35935"
+      }, {
+        "item" : "-0.08",
+        "count" : "34575"
+      }, {
+        "item" : "0.07",
+        "count" : "33993"
+      }, {
+        "item" : "-0.26",
+        "count" : "33830"
+      }, {
+        "item" : "0.24",
+        "count" : "33171"
+      }, {
+        "item" : "-0.05",
+        "count" : "30645"
+      }, {
+        "item" : "-0.06",
+        "count" : "30620"
+      }, {
+        "item" : "0.26",
+        "count" : "29931"
+      } ],
+      "smallest" : "-15.84",
+      "count" : "11850526",
+      "sum" : "846086.10",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619702,
+    "name" : "Lane_ID",
+    "dataTypeName" : "number",
+    "description" : "Current lane position of vehicle. Lane 1 is farthest left lane; lane 5 is farthest\nright lane. Lane 6 is the auxiliary lane between Ventura Boulevard on-ramp and the Cahuenga\nBoulevard off-ramp. Lane 7 is the on-ramp at Ventura Boulevard, and Lane 8 is the off-ramp at\nCahuenga Boulevard.",
+    "fieldName" : "lane_id",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723362,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "9999",
+      "non_null" : "11850526",
+      "average" : "4.265428724429616",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2",
+        "count" : "2422582"
+      }, {
+        "item" : "3",
+        "count" : "2119782"
+      }, {
+        "item" : "1",
+        "count" : "2103219"
+      }, {
+        "item" : "4",
+        "count" : "1906697"
+      }, {
+        "item" : "5",
+        "count" : "1637220"
+      }, {
+        "item" : "6",
+        "count" : "852653"
+      }, {
+        "item" : "0",
+        "count" : "324927"
+      }, {
+        "item" : "7",
+        "count" : "169522"
+      }, {
+        "item" : "12",
+        "count" : "150507"
+      }, {
+        "item" : "11",
+        "count" : "141917"
+      }, {
+        "item" : "31",
+        "count" : "13644"
+      }, {
+        "item" : "8",
+        "count" : "6304"
+      }, {
+        "item" : "9999",
+        "count" : "1122"
+      }, {
+        "item" : "101",
+        "count" : "411"
+      }, {
+        "item" : "1061",
+        "count" : "14"
+      }, {
+        "item" : "2081",
+        "count" : "3"
+      }, {
+        "item" : "1131",
+        "count" : "1"
+      }, {
+        "item" : "1201",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "sum" : "50547574",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619703,
+    "name" : "O_Zone",
+    "dataTypeName" : "text",
+    "description" : "Origin zones of the vehicles, i.e., the place where the vehicles enter the\ntracking system. There are 11 origins in the study area, numbered from 101 through 111. Please\nrefer to the data analysis report for more detailed information.",
+    "fieldName" : "o_zone",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 52723363,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "NA",
+      "non_null" : "9476656",
+      "null" : "2373870",
+      "top" : [ {
+        "item" : "NA",
+        "count" : "6995450"
+      }, {
+        "item" : "108",
+        "count" : "801698"
+      }, {
+        "item" : "102",
+        "count" : "505360"
+      }, {
+        "item" : "101",
+        "count" : "488682"
+      }, {
+        "item" : "114",
+        "count" : "235980"
+      }, {
+        "item" : "115",
+        "count" : "91888"
+      }, {
+        "item" : "123",
+        "count" : "68196"
+      }, {
+        "item" : "111",
+        "count" : "61745"
+      }, {
+        "item" : "103",
+        "count" : "61279"
+      }, {
+        "item" : "122",
+        "count" : "38930"
+      }, {
+        "item" : "120",
+        "count" : "23704"
+      }, {
+        "item" : "121",
+        "count" : "16244"
+      }, {
+        "item" : "113",
+        "count" : "15842"
+      }, {
+        "item" : "105",
+        "count" : "15699"
+      }, {
+        "item" : "107",
+        "count" : "11226"
+      }, {
+        "item" : "110",
+        "count" : "9434"
+      }, {
+        "item" : "109",
+        "count" : "9393"
+      }, {
+        "item" : "112",
+        "count" : "8673"
+      }, {
+        "item" : "118",
+        "count" : "6362"
+      }, {
+        "item" : "104",
+        "count" : "4883"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372619704,
+    "name" : "D_Zone",
+    "dataTypeName" : "text",
+    "description" : "Destination zones of the vehicles, i.e., the place where the vehicles exit the\ntracking system. There are 10 destinations in the study area, numbered from 201 through 211.\nOrigin 102 is a one-way off-ramp; hence there is no associated destination number 202. Please\nrefer to the data analysis report for more detailed information.",
+    "fieldName" : "d_zone",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 52723364,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "NA",
+      "non_null" : "9476656",
+      "null" : "2373870",
+      "top" : [ {
+        "item" : "NA",
+        "count" : "6995450"
+      }, {
+        "item" : "201",
+        "count" : "713358"
+      }, {
+        "item" : "208",
+        "count" : "542639"
+      }, {
+        "item" : "203",
+        "count" : "392185"
+      }, {
+        "item" : "214",
+        "count" : "302410"
+      }, {
+        "item" : "223",
+        "count" : "75471"
+      }, {
+        "item" : "202",
+        "count" : "75132"
+      }, {
+        "item" : "207",
+        "count" : "68687"
+      }, {
+        "item" : "215",
+        "count" : "64369"
+      }, {
+        "item" : "211",
+        "count" : "53770"
+      }, {
+        "item" : "204",
+        "count" : "36047"
+      }, {
+        "item" : "205",
+        "count" : "32149"
+      }, {
+        "item" : "213",
+        "count" : "26029"
+      }, {
+        "item" : "222",
+        "count" : "24796"
+      }, {
+        "item" : "206",
+        "count" : "19599"
+      }, {
+        "item" : "221",
+        "count" : "18240"
+      }, {
+        "item" : "210",
+        "count" : "14330"
+      }, {
+        "item" : "212",
+        "count" : "9435"
+      }, {
+        "item" : "209",
+        "count" : "6985"
+      }, {
+        "item" : "220",
+        "count" : "5436"
+      } ],
+      "smallest" : "201",
+      "count" : "11850526",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372619705,
+    "name" : "Int_ID",
+    "dataTypeName" : "text",
+    "description" : "Intersection in which the vehicle is traveling. Intersections are numbered\nfrom 1 to 4, with intersection 1 at the southernmost, and intersection 4 at the northernmost\nsection of the study area. Value of “0” means that the vehicle was not in the immediate vicinity of\nan intersection and that the vehicle instead identifies with a section of Lankershim Boulevard\n(Section_ID, below). Please refer to the data analysis report for more detailed information.\n",
+    "fieldName" : "int_id",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 52723365,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "NA",
+      "non_null" : "9476656",
+      "null" : "2373870",
+      "top" : [ {
+        "item" : "NA",
+        "count" : "6995450"
+      }, {
+        "item" : "0",
+        "count" : "1953552"
+      }, {
+        "item" : "2",
+        "count" : "186984"
+      }, {
+        "item" : "1",
+        "count" : "104510"
+      }, {
+        "item" : "4",
+        "count" : "95836"
+      }, {
+        "item" : "3",
+        "count" : "84117"
+      }, {
+        "item" : "5",
+        "count" : "56207"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372619706,
+    "name" : "Section_ID",
+    "dataTypeName" : "text",
+    "description" : "Section in which the vehicle is traveling. Lankershim Blvd is divided into five\nsections (south of intersection 1; between intersections 1 and 2, 2 and 3, 3 and 4; and north of\nintersection 4). Value of “0” means that the vehicle does not identify with a section of Lankershim\nBoulevard and that the vehicle was in the immediate vicinity of an intersection (Int_ID above).\nPlease refer to the data analysis report for more detailed information",
+    "fieldName" : "section_id",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 52723366,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "NA",
+      "non_null" : "9476656",
+      "null" : "2373870",
+      "top" : [ {
+        "item" : "NA",
+        "count" : "6995450"
+      }, {
+        "item" : "3",
+        "count" : "708841"
+      }, {
+        "item" : "2",
+        "count" : "632709"
+      }, {
+        "item" : "0",
+        "count" : "573937"
+      }, {
+        "item" : "4",
+        "count" : "317326"
+      }, {
+        "item" : "5",
+        "count" : "187100"
+      }, {
+        "item" : "1",
+        "count" : "61189"
+      }, {
+        "item" : "6",
+        "count" : "104"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372619707,
+    "name" : "Direction",
+    "dataTypeName" : "text",
+    "description" : " Moving direction of the vehicle. 1 - east-bound (EB), 2 - north-bound (NB), 3 -\nwest-bound (WB), 4 - south-bound (SB).\n",
+    "fieldName" : "direction",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 52723368,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "NA",
+      "non_null" : "9476656",
+      "null" : "2373870",
+      "top" : [ {
+        "item" : "NA",
+        "count" : "6995450"
+      }, {
+        "item" : "4",
+        "count" : "1235728"
+      }, {
+        "item" : "2",
+        "count" : "1126393"
+      }, {
+        "item" : "1",
+        "count" : "61715"
+      }, {
+        "item" : "3",
+        "count" : "57370"
+      } ],
+      "smallest" : "1",
+      "count" : "11850526",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372619708,
+    "name" : "Movement",
+    "dataTypeName" : "text",
+    "description" : "Movement of the vehicle. 1 - through (TH), 2 - left-turn (LT), 3 - right-turn\n(RT).",
+    "fieldName" : "movement",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 52723369,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "NA",
+      "non_null" : "9476656",
+      "null" : "2373870",
+      "top" : [ {
+        "item" : "NA",
+        "count" : "6995450"
+      }, {
+        "item" : "1",
+        "count" : "2307877"
+      }, {
+        "item" : "2",
+        "count" : "108547"
+      }, {
+        "item" : "3",
+        "count" : "64782"
+      } ],
+      "smallest" : "1",
+      "count" : "11850526",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372619709,
+    "name" : "Preceding",
+    "dataTypeName" : "number",
+    "description" : "Vehicle ID of the lead vehicle in the same lane. A value of '0' represents no\npreceding vehicle - occurs at the end of the study section and off-ramp due to the fact that only\ncomplete trajectories were recorded by this data collection effort (vehicles already in the section\nat the start of the study period were not recorded).",
+    "fieldName" : "preceding",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723370,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "3366",
+      "non_null" : "11850526",
+      "average" : "1172.693921096836",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1124319"
+      }, {
+        "item" : "1551",
+        "count" : "8030"
+      }, {
+        "item" : "396",
+        "count" : "7980"
+      }, {
+        "item" : "1023",
+        "count" : "7961"
+      }, {
+        "item" : "705",
+        "count" : "7825"
+      }, {
+        "item" : "567",
+        "count" : "7700"
+      }, {
+        "item" : "375",
+        "count" : "7689"
+      }, {
+        "item" : "706",
+        "count" : "7641"
+      }, {
+        "item" : "1232",
+        "count" : "7541"
+      }, {
+        "item" : "468",
+        "count" : "7534"
+      }, {
+        "item" : "476",
+        "count" : "7480"
+      }, {
+        "item" : "1386",
+        "count" : "7411"
+      }, {
+        "item" : "597",
+        "count" : "7341"
+      }, {
+        "item" : "703",
+        "count" : "7236"
+      }, {
+        "item" : "903",
+        "count" : "7219"
+      }, {
+        "item" : "1476",
+        "count" : "7203"
+      }, {
+        "item" : "1432",
+        "count" : "7190"
+      }, {
+        "item" : "336",
+        "count" : "7144"
+      }, {
+        "item" : "749",
+        "count" : "7032"
+      }, {
+        "item" : "1618",
+        "count" : "7027"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "sum" : "13897039802",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619710,
+    "name" : "Following",
+    "dataTypeName" : "number",
+    "description" : "Vehicle ID of the vehicle following the subject vehicle in the same lane. A\nvalue of '0' represents no following vehicle - occurs at the beginning of the study section and onramp\ndue to the fact that only complete trajectories were recorded by this data collection effort\n(vehicle that did not traverse the downstream boundaries of the section by the end of the study\nperiod were not recorded).",
+    "fieldName" : "following",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723402,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "3366",
+      "non_null" : "11850526",
+      "average" : "1181.218248033885",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1122755"
+      }, {
+        "item" : "396",
+        "count" : "8093"
+      }, {
+        "item" : "597",
+        "count" : "7605"
+      }, {
+        "item" : "706",
+        "count" : "7553"
+      }, {
+        "item" : "1023",
+        "count" : "7503"
+      }, {
+        "item" : "1232",
+        "count" : "7494"
+      }, {
+        "item" : "705",
+        "count" : "7469"
+      }, {
+        "item" : "468",
+        "count" : "7441"
+      }, {
+        "item" : "375",
+        "count" : "7304"
+      }, {
+        "item" : "749",
+        "count" : "7223"
+      }, {
+        "item" : "1476",
+        "count" : "7187"
+      }, {
+        "item" : "1432",
+        "count" : "7175"
+      }, {
+        "item" : "903",
+        "count" : "7157"
+      }, {
+        "item" : "1030",
+        "count" : "7114"
+      }, {
+        "item" : "1343",
+        "count" : "7091"
+      }, {
+        "item" : "572",
+        "count" : "7088"
+      }, {
+        "item" : "611",
+        "count" : "7048"
+      }, {
+        "item" : "1551",
+        "count" : "7039"
+      }, {
+        "item" : "650",
+        "count" : "7024"
+      }, {
+        "item" : "616",
+        "count" : "7008"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "sum" : "13998057560",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619711,
+    "name" : "Space_Headway",
+    "dataTypeName" : "number",
+    "description" : "Space Headway in feet. Spacing provides the distance between the frontcenter\nof a vehicle to the front-center of the preceding vehicle.",
+    "fieldName" : "space_headway",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723403,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "1855.75",
+      "non_null" : "11850526",
+      "average" : "62.41837663323974",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1251297"
+      }, {
+        "item" : "37",
+        "count" : "3404"
+      }, {
+        "item" : "39.5",
+        "count" : "3373"
+      }, {
+        "item" : "41.5",
+        "count" : "3343"
+      }, {
+        "item" : "30",
+        "count" : "3329"
+      }, {
+        "item" : "25",
+        "count" : "3320"
+      }, {
+        "item" : "40",
+        "count" : "3315"
+      }, {
+        "item" : "40.5",
+        "count" : "3311"
+      }, {
+        "item" : "36.5",
+        "count" : "3305"
+      }, {
+        "item" : "32.5",
+        "count" : "3254"
+      }, {
+        "item" : "23",
+        "count" : "3254"
+      }, {
+        "item" : "44",
+        "count" : "3219"
+      }, {
+        "item" : "43.5",
+        "count" : "3218"
+      }, {
+        "item" : "43",
+        "count" : "3193"
+      }, {
+        "item" : "45",
+        "count" : "3189"
+      }, {
+        "item" : "41",
+        "count" : "3185"
+      }, {
+        "item" : "35.5",
+        "count" : "3172"
+      }, {
+        "item" : "37.5",
+        "count" : "3168"
+      }, {
+        "item" : "42",
+        "count" : "3164"
+      }, {
+        "item" : "39",
+        "count" : "3156"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "sum" : "739690595.17",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619712,
+    "name" : "Time_Headway",
+    "dataTypeName" : "number",
+    "description" : "Time Headway in seconds. Time Headway provides the time to travel from\nthe front-center of a vehicle (at the speed of the vehicle) to the front-center of the preceding\nvehicle. A headway value of 99",
+    "fieldName" : "time_headway",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52723404,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "31864.08",
+      "non_null" : "11850526",
+      "average" : "574.8306949809654",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1255836"
+      }, {
+        "item" : "9999.99",
+        "count" : "670802"
+      }, {
+        "item" : "2",
+        "count" : "37924"
+      }, {
+        "item" : "1.9",
+        "count" : "37204"
+      }, {
+        "item" : "2.1",
+        "count" : "36839"
+      }, {
+        "item" : "2.02",
+        "count" : "36832"
+      }, {
+        "item" : "1.98",
+        "count" : "36376"
+      }, {
+        "item" : "1.8",
+        "count" : "36301"
+      }, {
+        "item" : "1.93",
+        "count" : "36255"
+      }, {
+        "item" : "1.97",
+        "count" : "36198"
+      }, {
+        "item" : "1.95",
+        "count" : "36162"
+      }, {
+        "item" : "2.03",
+        "count" : "36104"
+      }, {
+        "item" : "1.96",
+        "count" : "35996"
+      }, {
+        "item" : "1.92",
+        "count" : "35860"
+      }, {
+        "item" : "1.94",
+        "count" : "35806"
+      }, {
+        "item" : "1.82",
+        "count" : "35805"
+      }, {
+        "item" : "1.87",
+        "count" : "35772"
+      }, {
+        "item" : "2.12",
+        "count" : "35716"
+      }, {
+        "item" : "2.13",
+        "count" : "35703"
+      }, {
+        "item" : "1.83",
+        "count" : "35634"
+      } ],
+      "smallest" : "0",
+      "count" : "11850526",
+      "sum" : "6812046096.47",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 372619713,
+    "name" : "Location",
+    "dataTypeName" : "text",
+    "description" : "Name of street or freeway ",
+    "fieldName" : "location",
+    "position" : 25,
+    "renderTypeName" : "text",
+    "tableColumnId" : 52723419,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "us-101",
+      "non_null" : "11850526",
+      "null" : "0",
+      "top" : [ {
+        "item" : "us-101",
+        "count" : "4802933"
+      }, {
+        "item" : "i-80",
+        "count" : "4566387"
+      }, {
+        "item" : "lankershim",
+        "count" : "1607319"
+      }, {
+        "item" : "peachtree",
+        "count" : "873887"
+      } ],
+      "smallest" : "i-80",
+      "count" : "11850526",
+      "cardinality" : "11850526"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Creative Commons Attribution | Share Alike 3.0 Unported",
+    "logoUrl" : "images/licenses/cc30bysa.png",
+    "termsLink" : "http://creativecommons.org/licenses/by-sa/3.0/legalcode"
+  },
+  "metadata" : {
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "global_y",
+        "ascending" : true
+      } ]
+    },
+    "attachments" : [ {
+      "filename" : "Algorithms_and_Reports.zip",
+      "assetId" : "fe9732c7-064f-4133-ac25-ac38c3a0048a",
+      "name" : "Algorithms_and_Reports.zip"
+    }, {
+      "filename" : "peachtree-street-Peachtree-ProcessedVideo-1245pm-0100pm-Cam1234.zip",
+      "assetId" : "31cf3bc5-3418-49ca-9269-e9fe85b9dd02",
+      "name" : "peachtree-street-Peachtree-ProcessedVideo-1245pm-0100pm-Cam1234.zip"
+    }, {
+      "filename" : "US-101-LosAngeles-CA.zip",
+      "assetId" : "ae894ea3-70b5-400e-b8ed-dc60e1827224",
+      "name" : "US-101-LosAngeles-CA.zip"
+    }, {
+      "filename" : "i-80-ProcessedVideo-0400pm-0415pm-Cam567.zip",
+      "assetId" : "3059d985-e373-4878-be4e-ec360e8e3eab",
+      "name" : "i-80-ProcessedVideo-0400pm-0415pm-Cam567.zip"
+    }, {
+      "filename" : "lankershim-boulevard-ProcessedVideo-0830am-0845am-Cam45.zip",
+      "assetId" : "7e43d21e-88a0-4675-8e0c-2fd3fdde436c",
+      "name" : "lankershim-boulevard-ProcessedVideo-0830am-0845am-Cam45.zip"
+    }, {
+      "filename" : "I-80-Emeryville-CA.zip",
+      "assetId" : "18cffb85-bc7f-461b-9fbe-92559b74626b",
+      "name" : "I-80-Emeryville-CA.zip"
+    }, {
+      "filename" : "Peachtree-Street-Atlanta-GA.zip",
+      "assetId" : "7244a8b5-077f-4851-bc06-3cfc7a75f0b0",
+      "name" : "Peachtree-Street-Atlanta-GA.zip"
+    }, {
+      "filename" : "Lankershim-Boulevard-LosAngeles-CA.zip",
+      "assetId" : "62273322-a1e9-48fc-8692-b4c576bafc20",
+      "name" : "Lankershim-Boulevard-LosAngeles-CA.zip"
+    }, {
+      "filename" : "US_101_Metadata_Documentation.pdf",
+      "assetId" : "50459f5f-c40b-4eec-b9a0-72dfef577f15",
+      "name" : "US_101_Metadata_Documentation.pdf"
+    }, {
+      "filename" : "I-80_Metadata_Documentation.pdf",
+      "assetId" : "dbec670b-e6a7-4b9d-8dce-d3630034610e",
+      "name" : "I-80_Metadata_Documentation.pdf"
+    }, {
+      "filename" : "Lankershim_Blvd_Metadata_Documentation.pdf",
+      "assetId" : "38de7132-edbb-44ea-b9c5-c53b33317ee5",
+      "name" : "Lankershim_Blvd_Metadata_Documentation.pdf"
+    } ],
+    "custom_fields" : {
+      "Common Core" : {
+        "Update Frequency" : "R/PT0.1S"
+      },
+      "Common Core 3" : {
+        "Contact Email" : "data.itsjpo@dot.gov",
+        "Rights" : "public",
+        "Language" : "en-US",
+        "Geographic Name" : "Los Angeles, California; Emeryville, California; Atlanta, Georgia",
+        "Contact Name" : "ITS JPO",
+        "Temporal Applicability" : "2005-04-20/2006-11-09",
+        "Program Code" : "021:013",
+        "Publisher" : "Federal Highway Administration",
+        "Bureau Code" : "021:15"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "xnuk-kw6c",
+    "createdAt" : 1721413802,
+    "displayName" : "ITS-JPO",
+    "screenName" : "ITS-JPO",
+    "type" : "team",
+    "members" : [ {
+      "id" : "m6ay-wk9k",
+      "createdAt" : 1632161888,
+      "displayName" : "Amy O'Hara",
+      "screenName" : "Amy O'Hara",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "xqf5-7ccs",
+      "createdAt" : 1705435051,
+      "displayName" : "cadenyoungnoblis",
+      "screenName" : "cadenyoungnoblis",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "vvef-p4qd",
+      "createdAt" : 1722885643,
+      "displayName" : "Elina Zlotchenko",
+      "screenName" : "Elina Zlotchenko",
+      "teamId" : 1634236,
+      "teamRole" : "owner",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "tq57-4b3n",
+      "createdAt" : 1496235516,
+      "displayName" : "Jim Larkin",
+      "screenName" : "Jim Larkin",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "vv6k-eawi",
+      "createdAt" : 1721415400,
+      "displayName" : "Kate Hartman",
+      "screenName" : "Kate Hartman",
+      "teamId" : 1634236,
+      "teamRole" : "owner",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "i2uy-f3ed",
+      "createdAt" : 1705380467,
+      "displayName" : "Ryan Won",
+      "screenName" : "Ryan Won",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "hz2a-m9mv",
+      "createdAt" : 1785333594,
+      "displayName" : "ShannonMcHugh",
+      "screenName" : "ShannonMcHugh",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    } ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : true,
+      "expression" : {
+        "columnId" : 372619696,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "xnuk-kw6c",
+    "createdAt" : 1721413802,
+    "displayName" : "ITS-JPO",
+    "screenName" : "ITS-JPO",
+    "type" : "team",
+    "members" : [ {
+      "id" : "m6ay-wk9k",
+      "createdAt" : 1632161888,
+      "displayName" : "Amy O'Hara",
+      "screenName" : "Amy O'Hara",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "xqf5-7ccs",
+      "createdAt" : 1705435051,
+      "displayName" : "cadenyoungnoblis",
+      "screenName" : "cadenyoungnoblis",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "vvef-p4qd",
+      "createdAt" : 1722885643,
+      "displayName" : "Elina Zlotchenko",
+      "screenName" : "Elina Zlotchenko",
+      "teamId" : 1634236,
+      "teamRole" : "owner",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "tq57-4b3n",
+      "createdAt" : 1496235516,
+      "displayName" : "Jim Larkin",
+      "screenName" : "Jim Larkin",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "vv6k-eawi",
+      "createdAt" : 1721415400,
+      "displayName" : "Kate Hartman",
+      "screenName" : "Kate Hartman",
+      "teamId" : 1634236,
+      "teamRole" : "owner",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "i2uy-f3ed",
+      "createdAt" : 1705380467,
+      "displayName" : "Ryan Won",
+      "screenName" : "Ryan Won",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    }, {
+      "id" : "hz2a-m9mv",
+      "createdAt" : 1785333594,
+      "displayName" : "ShannonMcHugh",
+      "screenName" : "ShannonMcHugh",
+      "teamId" : 1634236,
+      "teamRole" : "member",
+      "type" : "interactive",
+      "flags" : [ "siteMember" ]
+    } ]
+  },
+  "tags" : [ "subcategory: infrastructure-based traffic surveillance", "next generation simulation (ngsim)", "atlanta", "emeryville", "us 101", "its joint program office (jpo)", "interstate 80 (i-80)", "behavioral algorithm", "ngsim", "lankershim boulevard", "simulation data", "freeway", "video", "peachtree st", "category: traffic management", "arterial", "los angeles", "san francisco bay area", "california", "georgia", "photo", "intelligent transportation systems (its)", "trajectories", "project: ngsim" ],
+  "flags" : [ "default", "federated", "internalToPublicFederatedView", "restorable", "restorePossibleForType" ]
+}

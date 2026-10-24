@@ -1,0 +1,7 @@
+logs/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+*.zip
+Assignment_Spec_2026-10-20.md

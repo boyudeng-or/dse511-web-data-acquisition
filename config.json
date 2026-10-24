@@ -1,0 +1,35 @@
+{
+  "source_name": "Next Generation Simulation (NGSIM) Vehicle Trajectories and Supporting Data",
+  "portal_base_url": "https://data.transportation.gov",
+  "dataset_id": "8ect-6jqj",
+  "location": "us-101",
+  "max_vehicle_id": 150,
+  "frame_step": 10,
+  "columns": [
+    "vehicle_id",
+    "frame_id",
+    "total_frames",
+    "global_time",
+    "v_length",
+    "v_class",
+    "v_vel",
+    "v_acc",
+    "lane_id",
+    "preceding",
+    "space_headway",
+    "time_headway"
+  ],
+  "page_size": 10000,
+  "max_rows": 50000,
+  "request_delay_s": 1.0,
+  "timeout_s": 60,
+  "user_agent": "DSE511-coursework-data-acquisition/1.0 (low-volume educational use)",
+  "local_timezone": "America/Los_Angeles",
+  "trajectory_gap_s": 5,
+  "plausible_limits": {
+    "speed_mps": [0, 45],
+    "abs_accel_mps2": 15,
+    "time_headway_s": 30
+  },
+  "min_vehicles": 100
+}

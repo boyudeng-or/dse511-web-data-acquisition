@@ -1,0 +1,9 @@
+step,description,rows_before,rows_after,values_affected
+convert_numeric,Strings -> numbers; count of values that could not be parsed,23793,23793,0
+remove_duplicates,"Exact duplicates and duplicate (vehicle_id, global_time) rows",23793,23793,0
+parse_timestamps,global_time (ms since epoch) -> UTC and America/Los_Angeles datetimes,23793,23793,23793
+assign_trajectory_ids,150 vehicle IDs split into 396 trajectories (gap > 5 s starts a new vehicle),23793,23793,246
+convert_units,"ft, ft/s, ft/s^2 -> m, m/s, m/s^2 (x 0.3048)",23793,23793,95172
+label_categories,v_class 1/2/3 -> motorcycle/auto/truck; lane_id -> lane_type; unknown codes counted,23793,23793,0
+mask_headway_sentinels,No leader: 1991; 9999.99 (stopped): 106; zero with leader: 2 -> NaN,23793,23793,2099
+flag_implausible_values,"speed outside [0, 45] m/s: 0; |accel| > 15 m/s^2: 0; time headway > 30 s: 27",23793,23793,27

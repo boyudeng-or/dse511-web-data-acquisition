@@ -1,0 +1,20 @@
+column,type,unit,description
+trajectory_id,string,,One vehicle trajectory: V<vehicle_id>_<local start time HHMMSS>
+vehicle_id,int,,"Source vehicle ID; reused across collection periods, so not unique"
+collection_period,category,,"Burst of the sample the trajectory belongs to, with its local time span"
+vehicle_class,category,,"auto, truck, or motorcycle (source v_class 2, 3, 1)"
+vehicle_length_m,float,m,Vehicle length
+start_time_local,datetime,America/Los_Angeles,First sampled frame
+end_time_local,datetime,America/Los_Angeles,Last sampled frame
+duration_s,float,s,Time between first and last sampled frame
+n_sampled_frames,int,,Frames kept after 1-per-second sampling
+total_frames_source,int,,Source total_frames (0.1 s frames) for this trajectory
+completeness_ratio,float,,n_sampled_frames / (total_frames_source / 10); ~1 means complete
+mean_speed_mps,float,m/s,Mean instantaneous speed
+sd_accel_mps2,float,m/s^2,Standard deviation of acceleration (source is clipped at +/-3.41)
+median_time_headway_s,float,s,"Median time headway on mainline lanes 1-5, sentinels removed"
+median_space_headway_m,float,m,Median front-to-front spacing on mainline lanes 1-5
+n_valid_time_headway,int,,Frames contributing to median_time_headway_s
+most_common_lane,int,,Modal lane_id (1 = leftmost ... 5 = rightmost; 6-8 auxiliary/ramps)
+n_lane_changes,int,,Number of lane_id changes between consecutive sampled frames
+n_flagged_frames,int,,Frames with any implausible-value flag
