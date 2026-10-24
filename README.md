@@ -15,7 +15,7 @@ dse511-web-data-acquisition/
 ├── tests/test_ngsim_pipeline.py   # unit tests for parsing/cleaning functions (no network)
 ├── data/
 │   ├── raw/run_20261024T194613Z/  # raw data exactly as received + provenance
-│   │   ├── page_000.json … page_002.json   # API responses, byte-for-byte
+│   │   ├── page_000.json … page_002.json   # API responses, unchanged response text
 │   │   ├── dataset_metadata.json           # source metadata (license, column definitions)
 │   │   ├── row_count.json                  # response of the count query
 │   │   ├── requests_log.jsonl              # every request: time, URL, parameters, HTTP status

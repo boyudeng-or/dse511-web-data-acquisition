@@ -48,6 +48,14 @@ def load_config(config_path: Path = CONFIG_PATH) -> dict:
         return json.load(config_file)
 
 
+def project_relative(path: Path) -> Path:
+    """Shorten paths in log messages so outputs do not reveal the local folder structure."""
+    try:
+        return path.resolve().relative_to(PROJECT_DIR)
+    except ValueError:
+        return path
+
+
 def get_logger(name: str = "ngsim_pipeline") -> logging.Logger:
     """Log to the console and to logs/pipeline.log (appended across runs)."""
     logger = logging.getLogger(name)
@@ -163,7 +171,7 @@ def acquire(config: dict, force_refresh: bool = False, raw_dir: Path = RAW_DIR,
     logger = logger or get_logger()
     latest_run = find_latest_complete_run(raw_dir)
     if latest_run is not None and not force_refresh:
-        logger.info("Reusing cached raw data in %s (no requests sent).", latest_run)
+        logger.info("Reusing cached raw data in %s (no requests sent).", project_relative(latest_run))
         return latest_run
 
     run_dir = find_incomplete_run(raw_dir)
@@ -171,9 +179,9 @@ def acquire(config: dict, force_refresh: bool = False, raw_dir: Path = RAW_DIR,
         run_stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
         run_dir = raw_dir / f"run_{run_stamp}"
         run_dir.mkdir(parents=True)
-        logger.info("Starting new raw run folder %s", run_dir)
+        logger.info("Starting new raw run folder %s", project_relative(run_dir))
     else:
-        logger.info("Resuming incomplete raw run folder %s", run_dir)
+        logger.info("Resuming incomplete raw run folder %s", project_relative(run_dir))
 
     client = SourceClient(config, run_dir / "requests_log.jsonl", logger)
     started_at = datetime.now(timezone.utc)
